@@ -84,7 +84,7 @@ if len(termBusqueda) > 2:
     n = sum(similaridad >= umbral)
     masSimilares = ordenSimilaridad[0:n]
     # Resultados filtrados
-    resultados = iip.iloc[masSimilares]
+    resultados = resultados.iloc[masSimilares]
 
 #===================================================
 # VISUALIZACION DE RESULTADOS DE BUSQUEDA.
