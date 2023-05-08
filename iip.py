@@ -104,7 +104,7 @@ fichas = alt.Chart(resultados, title="Innovaciones Distritales").mark_rect(
     alt.Y('i:O', axis=None),
     tooltip=['INNOVACION','DESCRIPCION','SECTOR','ENTIDAD'],
 ).properties(
-    width=800,
+    width=700,
     height=100*alturaGrilla
 )
 imagenes = fichas.mark_image(
