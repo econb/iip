@@ -80,7 +80,7 @@ if len(termBusqueda) > 2:
     l = sorted(list(enumerate(similaridad)), key=lambda x:x[1], reverse=True)
     ordenSimilaridad = list(list(zip(*l))[0])
     # Filtrar los mas similares
-    umbral = np.quantile(similaridad, q=0.95)
+    umbral = np.quantile(similaridad, q=0.97)
     n = sum(similaridad >= umbral)
     masSimilares = ordenSimilaridad[0:n]
     # Resultados filtrados
