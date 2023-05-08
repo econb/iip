@@ -20,7 +20,7 @@ st.markdown("Gracias al Índice de Innovación Pública de **LABCapital - Veedur
 
 @st.cache
 def inicializar():
-    iip = pd.read_csv("inno.csv", sep=';')
+    iip = pd.read_csv("inno.csv", sep=',')
 
     def limpiarTexto(txt):
         return re.sub('[ ]+',' ',re.sub(r'[^a-zA-Z0-9áéíóúüñÁÉÍÓÚÜÑ\.,; ]',r' ', txt)).strip()
