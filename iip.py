@@ -15,7 +15,7 @@ import altair as alt
 from sentence_transformers import SentenceTransformer, util
 import streamlit as st
 
-st.title("¡BOGOTÁ ESTÁ INNOVANDO!")
+st.title("¿CÓMO SE VIVE LA INNOVACIÓN PÚBLICA EN BOGOTÁ?")
 st.markdown("Gracias al Índice de Innovación Pública IIP 2023 de **LABCapital - Veeduría Distrital** sabemos cómo están innovando las entidades distritales de Bogotá en los últimos años.")
 
 @st.cache
