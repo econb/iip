@@ -98,7 +98,7 @@ resultados.insert(0,'i',filasIdx[0:numResultados])
 
 fichas = alt.Chart(resultados, title="Innovaciones Distritales").mark_rect(
     color='blue',
-    opacity=0.2,
+    opacity=0.0,
 ).encode(
     alt.X('j:O', axis=None),
     alt.Y('i:O', axis=None),
