@@ -96,7 +96,7 @@ alturaGrilla = numResultados / numColumnas
 resultados.insert(0,'j',colsIdx[0:numResultados])
 resultados.insert(0,'i',filasIdx[0:numResultados])
 
-fichas = alt.Chart(resultados, title="Innovaciones Distritales").mark_rect(
+fichas = alt.Chart(resultados).mark_rect(
     color='blue',
     opacity=0.0,
 ).encode(
