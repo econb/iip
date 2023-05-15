@@ -108,7 +108,7 @@ fichas = alt.Chart(resultados, title="Innovaciones Distritales").mark_rect(
     height=100*alturaGrilla
 )
 imagenes = fichas.mark_image(
-    opacity=0.25,
+    opacity=0.2,
 ).encode(
     url='ICONO'
 )
